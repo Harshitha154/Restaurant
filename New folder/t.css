@@ -1,0 +1,139 @@
+body {    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    background-color: black;
+    margin-top:20px;
+    color:white;
+    padding-top: 20px;
+    height:80px;
+    display:flex;
+    justify-content: space-between;
+  }
+  header h1{
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    padding-left:50px;
+  }
+  span{
+    font-style: italic;
+    font-size: 50px;
+    color: rgb(234, 133, 0);
+  }
+  nav{
+
+    width:500px;
+    margin-bottom: 5px;
+    list-style-type: none;
+  }
+  nav ul{
+    display: flex;
+    letter-spacing: 2px;
+  }
+  nav ul li{
+    margin-left:25px;
+    padding-top:25px; 
+  }
+  a{
+    text-decoration: none;
+    list-style-type: none;
+  }
+  .bg .img2{
+    width:300px;
+    height:300px;
+  }
+  .bg .img1{
+    width:500px;
+    height:400px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 7px 7px 3px grey;
+  }
+  .bg{
+    display: flex;
+  }
+  .bg h3{
+    padding-top:150px;
+    padding-left: 50px;
+    font-size: x-large;
+    letter-spacing: 3px;
+  }
+.menu{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmmax(350px,1fr));
+  grid-gap:20px 40 px;
+}
+.heading
+{
+  padding-top: 10px;
+  background:orange;
+  color: white;
+  margin-bottom: 30px;
+  text-align: center;
+  width:300px;
+  margin:auto;
+  height:70px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 2px black;
+  margin-bottom:10px;
+}
+.items{
+  flex-direction: column;
+  margin-left:300px;
+  transition: 3s;
+}
+.btn{
+   margin-left:-200px;
+   background-color: black;
+   color: orange;
+   font-size:15px;
+   border-radius:4px;
+   padding:10px;
+   box-shadow: 3px 3px 2px grey;
+   
+  
+
+
+}
+.items img{
+  width:300px;
+  height:300px;
+  margin:50px;
+  box-shadow: 7px 7px 5px grey;
+  border-radius: 10px;
+
+}
+.items h4{
+  font-style:italic;
+  font-size: xx-large;
+  text-decoration-line: underline;
+
+}
+.items img:hover{
+  transform: scale(1.1);
+  box-shadow:7px 7px 3px black;
+}
+footer{
+  margin:20px;
+  padding:20px;
+  background-color: black;  
+  color: white;
+
+}
+footer h3{
+  color: orange;
+  font-size:30px;
+}
+footer button{
+  margin-left: 400px;
+  font-size:10px;
+  background-color: orange;
+  box-shadow: 2px 2px 1px grey;
+  border-radius: 10px;
+}
+footer button:hover{
+  transform: scale(1.1);
+  background-color: white;
+
+}
